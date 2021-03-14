@@ -1,0 +1,20 @@
+h2 {
+    margin: 50px 22px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 22px auto auto 22px;
+}
+
+.pic {
+    grid-column: 2 / 4;
+}
+
+.slideshow-container {
+    position: relative;
+}
+
+.slide {
+    display: none;
+}

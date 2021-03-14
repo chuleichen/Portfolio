@@ -1,0 +1,66 @@
+.parallax {
+    background-image: url("../images/2-1.png");
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 500px;  
+    vertical-align: center;
+    padding-top: 50px;
+}
+
+.parallax .text {
+    padding:100px auto;
+    margin: 30px 22px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.minecraft_img img {
+    max-width: 600px; 
+}
+
+.minecraft_img {
+    border: solid 5px #ffc6a7;
+    border-radius: 5px;
+    margin: 30px 22px;
+}
+
+button {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: solid 1px #ffc6a7;
+    border-radius: 5px;
+    background-color: #ffc6a7;
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 40px;
+    margin-right: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12pt;
+}
+
+ol {
+    list-style-type: square;
+    margin-left: 2em;
+}
+
+h3 {
+    font-weight: lighter;
+    color: #a7a7a7;
+}
+
+.warning p {
+    font-size: 12pt;
+    color: #a7a7a7;
+    margin: 20px 22px;
+}
