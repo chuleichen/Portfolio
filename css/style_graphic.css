@@ -17,4 +17,23 @@ h2 {
 
 .slide {
     display: none;
+    position: relative;
+}
+
+@keyframes slidein {
+    0% {
+        opacity: 0.5;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.slide_in {
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-timing-function:ease-out;
 }

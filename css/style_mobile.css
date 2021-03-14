@@ -1,0 +1,39 @@
+h2 {
+    margin: 50px 22px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 22px auto auto 22px;
+}
+
+.sub-title {
+    color: grey;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.multi_pic, .pic, .text, .credit {
+    grid-column: 2 / 4;
+}
+
+.credit p{
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 11pt;
+    margin: 5px;
+}
+
+.credit a {
+    color: grey;
+}
+
+figcaption {
+    font-size: 12pt;
+    color:gray;
+    text-align: center;
+}
+
+.figma {
+    text-decoration: underline;
+}
