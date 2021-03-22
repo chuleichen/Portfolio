@@ -58,6 +58,7 @@ header {
 
 .active {
     background-color: #ffc6a7;
+    border: solid 2px black;
 }
 
 .inactive:hover {
