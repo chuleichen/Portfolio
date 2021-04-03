@@ -16,7 +16,7 @@ label {
 
 input, textarea {
     margin: 10px 22px;
-    width: 80%;
+    width: 85%;
 }
 
 textarea {
@@ -30,4 +30,31 @@ textarea {
     width: 40%;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+@media screen and (min-width: 600px) {
+    main img {
+        width: 400px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 44px 3fr 7fr 44px;
+    }
+
+    .self_photo {
+        width: 80%;
+    }
+
+    .left {
+        grid-column: 2 / 3;
+    }
+
+    .right {
+        grid-column: 3 / 4;
+    }
+
+    label, input, textarea {
+        margin: 30px 44px;
+    }
 }
