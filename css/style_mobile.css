@@ -54,4 +54,8 @@ figcaption {
     .right {
         grid-column: 3 / 4;
     }
+
+    .grid-container p {
+        margin: 0;
+    }
 }

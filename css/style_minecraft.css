@@ -64,3 +64,18 @@ h3 {
     color: #575757;
     margin: 20px 22px;
 }
+
+@media screen and (min-width: 600px) {
+    .parallax .text {
+        padding: 22px 22px;
+        margin: 40px 20%;
+    }
+
+    .minecraft_img {
+        width: 300px;
+    }
+
+    ul {
+        margin-left: 62px;
+    }
+}

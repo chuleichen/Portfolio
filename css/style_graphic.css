@@ -4,7 +4,7 @@ h2 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 22px auto auto 22px;
+    grid-template-columns: 22px 1fr 1fr 22px;
 }
 
 .pic {
@@ -36,4 +36,22 @@ h2 {
     animation-name: slidein;
     animation-duration: 2s;
     animation-timing-function:ease-out;
+}
+
+@media screen and (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: 44px 1fr 10px 1fr 44px;
+    }
+
+    .left {
+        grid-column: 2 / 3;
+    }
+
+    .right {
+        grid-column: 4 / 5;
+    }
+
+    .center {
+        grid-column: 2 / 5;
+    }
 }
