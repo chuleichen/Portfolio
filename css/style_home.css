@@ -99,11 +99,12 @@ textarea {
         margin-right: auto;
     }
 
-    .flip-card-inner:hover .flip-card-front{
+    .flip-card-inner:hover .flip-card-front, .flip-card-inner:focus-within .flip-card-front{
         transform: rotateY(180deg);
     }
 
-    .flip-card-inner:hover .flip-card-back{
+    .flip-card-inner:hover .flip-card-back, 
+    .flip-card-inner:focus-within .flip-card-back{
         transform: rotateY(0);
     }
 
