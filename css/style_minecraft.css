@@ -65,6 +65,10 @@ h3 {
     margin: 20px 22px;
 }
 
+.gallery_intro {
+    display: none;
+}
+
 @media screen and (min-width: 600px) {
     .parallax .text {
         padding: 22px 22px;
@@ -77,5 +81,53 @@ h3 {
 
     ul {
         margin-left: 62px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h2 {
+        margin: 100px 15% 30px 15%;
+        width: 70%;
+    }
+
+    .map {
+        width: 500px;
+    }
+
+    .flex-container {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    ul {
+        margin-left: 15%;
+    }
+
+    .warning {
+        text-align: center;
+    }
+
+    .minecraft_img {
+        height: 200px;
+        position: relative;
+    }
+
+    .day, .night {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+
+    .day {
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .day:hover {
+        opacity: 0;
+    }
+
+    .gallery_intro {
+        display: block;
     }
 }
