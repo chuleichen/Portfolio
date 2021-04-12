@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <!-- Include code for favicon image, three stylesheets, Google Font, and responsive meta tags. -->
-    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
-    <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/html5reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_graphic.css">
-    <title>Chulei Chen's Portfolio</title>
-  </head>
-  <body>
-    <a class = "skip" href="#main">Skip to Main Content</a>
-    <header>
-      <img src="images/header.png" alt="Chulei Chen's Portfolio">
-      <nav>
-        <ul class="nav_container">
-          <li class="nav_item inactive"><a href="index.html">Homepage</a></li>
-          <li class="nav_item inactive"><a href="mobile_app.html">Mobile-App</a></li>
-          <li class="nav_item active"><a href="graphic.html">Graphic</a></li>
-          <li class="nav_item inactive"><a href="minecraft.html">Fun Stuff</a></li>
-        </ul>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Include code for favicon image, three stylesheets, Google Font, and responsive meta tags. -->
+  <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+  <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/html5reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_graphic.css">
+  <title>Chulei Chen's Portfolio</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTMS25H3MT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WTMS25H3MT');
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to Main Content</a>
+  <header>
+    <img src="images/header.png" alt="Chulei Chen's Portfolio">
+    <nav>
+      <ul class="nav_container">
+        <li class="nav_item inactive"><a href="index.html">Homepage</a></li>
+        <li class="nav_item inactive"><a href="mobile_app.html">Mobile-App</a></li>
+        <li class="nav_item active"><a href="graphic.html">Graphic</a></li>
+        <li class="nav_item inactive"><a href="minecraft.html">Fun Stuff</a></li>
+      </ul>
     </nav>
   </header>
   <main>
     <h1 id="main">Graphic Design</h1>
-    
+
     <h2>Introduction</h2>
     <div class="text">
-      <p>In this section, I will show some of my work in the course graphic design. </p>      
+      <p>In this section, I will show some of my work in the course graphic design. </p>
     </div>
 
     <h2>Slideshow</h2>
@@ -129,26 +140,31 @@
     </div>
 
     <h2>You may also like...</h2>
-      <div  class="flex-container">
-        <div class="also_like">
-          <a href="minecraft.html">
-            <img src="images/2-1.png" alt="minecraft world image">
-          </a>
-        </div>
-        <div class="also_like">
-          <a href="mobile_app.html">
-            <img src="images/mobile_app_cover.png" alt="mobile app prototype">
-          </a>
-        </div>
+    <div class="flex-container">
+      <div class="also_like">
+        <a href="minecraft.html">
+          <img src="images/2-1.png" alt="minecraft world image">
+        </a>
       </div>
+      <div class="also_like">
+        <a href="mobile_app.html">
+          <img src="images/mobile_app_cover.png" alt="mobile app prototype">
+        </a>
+      </div>
+    </div>
 
   </main>
 
-    <footer>
-      <p>&copy; 2021 Chulei Chen
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
-    </footer>
-    
-    <script src="js/slider.js"></script>
-  </body>
+  <footer>
+    <p>&copy; 2021 Chulei Chen
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License"
+          src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a
+        rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+        Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+    </p>
+  </footer>
+
+  <script src="js/slider.js"></script>
+</body>
+
 </html>
