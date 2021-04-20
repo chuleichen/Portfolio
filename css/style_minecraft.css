@@ -32,12 +32,40 @@
 }
 
 button {
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
     border: solid 1px #ffc6a7;
     border-radius: 5px;
     background-color: #ffc6a7;
+    -webkit-animation: button_size 3s infinite ease-in-out;
+    animation: button_size 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes button_size {
+    0% {
+        width: 40%;
+    }
+    50% {
+        margin-left: 25%;
+        width: 50%;
+    }
+    100% {
+        width: 40%
+    }
+}
+
+@keyframes button_size {
+    0% {
+        width: 40%;
+    }
+    50% {
+        margin-left: 25%;
+        width: 50%;
+    }
+    100% {
+        width: 40%
+    }
 }
 
 .suggested {
@@ -129,6 +157,8 @@ h3 {
 
     .day {
         z-index: 2;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
         transition: 1s;
     }
 
@@ -138,5 +168,18 @@ h3 {
 
     .gallery_intro {
         display: block;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .day {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    button {
+        -webkit-animation: none;
+        animation: none;  
     }
 }
