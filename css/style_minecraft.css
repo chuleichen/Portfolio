@@ -182,4 +182,8 @@ h3 {
         -webkit-animation: none;
         animation: none;  
     }
+
+    .parallax {
+        background-attachment: scroll;
+    }
 }
